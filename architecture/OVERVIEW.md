@@ -12,3 +12,12 @@
 2. Add schedule derivation logic from block/header entropy.
 3. Introduce batched nonce search kernels and target checks.
 4. Add correctness and performance test suites.
+# Architecture Overview (Placeholder)
+
+This document will capture:
+- High-level mining pipeline flow.
+- Host-side orchestration responsibilities.
+- CUDA kernel boundaries.
+- Memory model and performance considerations.
+
+_No implementation details are included yet by design._

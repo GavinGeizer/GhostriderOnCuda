@@ -1,18 +1,16 @@
 # Roadmap
 
-## Phase 0: Scaffold
+## Phase 0: Scaffold (current)
 - [x] Create clean repository layout.
 - [x] Add contributor guidance.
 - [x] Add architecture placeholders.
 
-## Phase 1: Prototype coding (current)
-- [x] Add GhostRider stage interface in headers.
-- [x] Add CUDA placeholder skeletons for all GhostRider algorithm stages.
-- [x] Add host-side pipeline runner and demo binary.
-- [ ] Add deterministic stage schedule builder from header seed.
+## Phase 1: Planning
+- [ ] Confirm GhostRider stage schedule and dependencies.
+- [ ] Define host/device API contracts.
+- [ ] Define test strategy and benchmark targets.
 
-## Phase 2: Spec-correct implementation
-- [ ] Replace skeleton kernels with cryptographic-correct implementations.
+## Phase 2: Initial implementation
+- [ ] Add minimal build configuration.
+- [ ] Add first hash primitive wrapper.
 - [ ] Add nonce scanning prototype.
-- [ ] Add validation against known test vectors.
-- [ ] Add benchmark harness.
