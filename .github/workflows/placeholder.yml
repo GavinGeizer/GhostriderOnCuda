@@ -1,0 +1,11 @@
+name: placeholder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scaffold-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "Scaffold-only repository; no build configured yet."
